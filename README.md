@@ -7,7 +7,7 @@ Whenever you Live Stream on YouTube, you will get a custom Status in Discord.
 3. Start it. Turn it into a exe and make it autostart idk.
 
 # Requirements
-A YouTube API Key, Client ID and a big Brian.
+A YouTube API Key, Client ID and a big Brain.
 
 Python:
 1. pip install pypresence
