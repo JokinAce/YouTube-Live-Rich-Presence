@@ -14,6 +14,5 @@ while True:
         	pass
         RPC = Presence(client_id)
         RPC.connect()                                                                 #Gets Video ID
-        RPC.update(details="Hey im Live:", state="https://youtu.be/" + jsonshit.json()["items"][0]["id"]["videoId"] ) # small_image="unnamed" Go in Application and upload a Picture in the Rich Presence Category. Put name in here. Ex. unnamed )
+        RPC.update(details="Hey im Live:", state="https://youtu.be/" + jsonshit.json()["items"][0]["id"]["videoId"] ) # large_image="unnamed" (optional) Go in Application and upload a Picture in the Rich Presence Category. Put name in here. Ex. unnamed )
     time.sleep(60) #Timer in Seconds to check if Live
-
